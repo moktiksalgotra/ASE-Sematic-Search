@@ -1,0 +1,39 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python cache / virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Backend runtime artifacts
+backend/__pycache__/
+backend/chroma_db/
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Node dependencies / build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Logs / runtime lock files
+*.log
+*.pid
+*.lock
